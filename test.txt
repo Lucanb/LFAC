@@ -1,0 +1,75 @@
+Int a;
+a = 7;
+
+Float f;
+f = 12.321;
+
+
+String s;
+s = "exemplu!";
+
+Bool bt;
+bt = True;
+
+Bool bf;
+bf = False;
+
+Int b;
+b = 6;
+
+If (a > b)
+Begin
+    Call Print(a);
+End;
+
+Int k;
+k = 2;
+
+Call Print(((k+2)+4));
+Call Print(((10*3)+2));
+Call Print(((10+20)/5));
+
+Int tab[10];
+Int i;
+For(i=0; i<10; i++)
+    Begin
+        tab[i] = 5;
+    End;
+
+String hello;
+hello = "Hello,";
+
+String world;
+world = " World!";
+
+Int rez;
+rez = 1;
+
+Int rez2;
+rez2 = 2;
+
+If (rez == rez2)
+    Begin
+        Call Print(1);
+    End;
+
+Function Int Printer()
+    Begin
+        Int var;
+        var = 3;
+        Call Print(var);
+    End;
+
+Call Printer();
+
+
+Call Printer();
+
+Class MyClass
+    Begin
+        Int value;
+        Function Int get_value(Int variable)
+            Begin
+                Call Print(variable);
+            End;
+    End;

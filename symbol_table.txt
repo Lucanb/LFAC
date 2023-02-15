@@ -1,0 +1,32 @@
+Defined inside global:
+Function Printer: Parameters = ()
+Variable rez2: Type = Int, Value = 2
+Variable rez: Type = Int, Value = 1
+Variable world: Type = String, Value = " World!"
+Variable hello: Type = String, Value = "Hello,"
+Variable i: Type = Int, Value = 0
+Variable tab: Type = Int, Value = 5
+Variable k: Type = Int, Value = 2
+Variable b: Type = Int, Value = 6
+Variable bf: Type = Bool, Value = 0
+Variable bt: Type = Bool, Value = 1
+Variable s: Type = String, Value = "exemplu!"
+Variable f: Type = Float, Value = 12.321000
+Variable a: Type = Int, Value = 7
+
+Defined inside if:
+
+Defined inside for:
+
+Defined inside if:
+
+Defined inside Function:
+Variable var: Type = Int, Value = 3
+
+Defined inside class:
+Function get_value: Parameters = (Int )
+Variable value: Type = Int, Value = unintialized
+
+Defined inside Function:
+Variable variable: Type = Int, Value = parameter
+
